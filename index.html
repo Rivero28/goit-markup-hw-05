@@ -61,7 +61,7 @@
           <h1 class="main-banner-header">
             Effective Solutions for Your Business
           </h1>
-          <button type="button" class="main-banner-button">
+          <button type="button" class="main-banner-button" data-modal-open>
             Order Service
           </button>
         </div>
@@ -429,5 +429,15 @@
         </div>
       </div>
     </footer>
+    <div class="modal is-hidden" data-modal>
+      <div class="modal-window">
+        <button type="button" data-modal-close class="modal-button">
+          <svg class="modal-svg" height="8" width="8">
+            <use href="./images/VectorModal1.svg"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
